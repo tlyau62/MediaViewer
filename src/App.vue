@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <viewer ext="jpeg"></viewer>
-    <viewer ext="mp4"></viewer>
-    <viewer ext="mp4"></viewer>
+    <viewer ext="jpeg" src="http://test.com/test.jpeg"></viewer>
+    <viewer ext="mp4" src="http://test.com/test.mp4"></viewer>
+    <viewer ext="mp4" src="http://test.com/test.mp4"></viewer>
+    <viewer ext="png" src="http://test.com/test.png"></viewer>
   </div>
 </template>
 

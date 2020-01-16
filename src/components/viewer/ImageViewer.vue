@@ -1,3 +1,9 @@
 <template>
-  <div>image viewer</div>
+  <div>image viewer {{src}}</div>
 </template>
+
+<script>
+export default {
+  props: ["src"]
+};
+</script>

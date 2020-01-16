@@ -1,6 +1,6 @@
 <template>
   <div id="viewer">
-    <component :is="viewerComponent"></component>
+    <component :is="viewerComponent" :src="src"></component>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import viewer from "./viewer";
 
 export default {
-  props: ["ext"],
+  props: ["ext", "src"],
   data() {
     return {
       viewerComponent: viewer.getExtViewer(this.ext)
