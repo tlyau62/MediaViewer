@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>video src {{src}}</p>
     <video playsinline controls>
       <source :src="src" />
     </video>

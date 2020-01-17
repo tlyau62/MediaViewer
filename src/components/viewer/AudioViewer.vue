@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>audio viewer {{src}}</p>
     <audio playsinline controls>
       <source :src="src" />
     </audio>
