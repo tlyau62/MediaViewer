@@ -6,6 +6,7 @@
 
 <script>
 import viewer from "./viewer";
+import "plyr/dist/plyr.css";
 
 export default {
   props: ["ext", "src"],
